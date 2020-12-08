@@ -36,6 +36,9 @@
     background: #43A047;
     color: white;
   }
+  li.friend.selected:hover {
+    background: #37993b;
+}
   
   .friend.selected img {
     border-color: white;
@@ -135,4 +138,16 @@ input#reset {
     content: "";
     display: table;
     clear: both;
+}
+.text-area p {
+  font-size: 18px;
+  /* font-family: 'Roboto'; */
+}
+.text-area {
+  display: inline-block;
+  width: 90%;
+  border: 3px solid white;
+  border-radius: 11px;
+  padding: 21px 30px;
+  margin-top: -11px;
 }
